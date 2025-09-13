@@ -1,0 +1,26 @@
+{
+  "name": "tuts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ejs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhil18440/learningRepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nikhil18440/learningRepo/issues"
+  },
+  "homepage": "https://github.com/nikhil18440/learningRepo#readme",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
