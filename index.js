@@ -1,12 +1,8 @@
-class MathUtils {
-  static add(a, b) {
-    return a + b;
-  }
+const youtubeLogger = require('./logger.js')
+var logger = null
 
-  speak(){
-    return "bark"
-  }
+if (process.env.NODE_ENV !== "production") {
+  logger = youtubeLogger()
 }
 
-console.log(MathUtils.add(2, 3)); // 5
-console.log(MathUtils.speak()); // 5
+module.exports = logger
